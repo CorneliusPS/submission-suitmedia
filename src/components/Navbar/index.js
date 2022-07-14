@@ -1,6 +1,6 @@
 import React from "react";
+import { icons } from "react-icons";
 
-import HamburgerBtn from "../../../public/icons/.hamburger.png";
 
 export default function Navbar() {
   const [navbarOpen, setNavbarOpen] = React.useState(false);
@@ -18,7 +18,7 @@ export default function Navbar() {
               type="button"
               onClick={() => setNavbarOpen(!navbarOpen)}
             >   
-              <img className="h-4" src={HamburgerBtn} alt="hamburger" />
+              <img className="h-4" src='icons/hamburger.png' alt="hamburger" />
             </button>
           </div>
           <div

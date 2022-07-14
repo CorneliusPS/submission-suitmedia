@@ -16,7 +16,7 @@ export default function index() {
                 <h5 className='mb-4 mt-2'>INNOVATIVE</h5>
                 <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
             </div>
-            <div className='w-64 mr-4 p-8' style={{backgroundColor : "#6A996F", border : "2px solid #69996F"}}>
+            <div className='w-64 text-warp mr-4 p-8' style={{backgroundColor : "#6A996F", border : "2px solid #69996F"}}>
                                 <div className='flex justify-center'>
                     <div></div>
                     <div>
